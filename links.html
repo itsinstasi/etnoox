@@ -30,6 +30,9 @@
     <meta name="msapplication-TileImage" content="img/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#fff">
 
+    <!--modernizr-->
+	<script src="js/vendors/modernizr-custom.js"></script>
+
 </head>
 <body>
     <!--[if lt IE 8]>
@@ -46,7 +49,7 @@
 				<div class="header__wrap">
 					<div class="header__left">
 						<a href="./main.html" class="header__logo">
-							<div class="header__logo-pic"><img src="https://scontent-arn2-2.cdninstagram.com/vp/ccb26c1bec2eb06465c67c02124591d1/5E3655F0/t51.2885-19/s150x150/46380599_415092765694352_6400870480844161024_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com" alt="Oxana Krutous"></div>
+							<div class="header__logo-pic"><img src="https://scontent-arn2-2.cdninstagram.com/vp/90fc6804aff21ad5dd8d1413744a4182/5E5DE2F0/t51.2885-19/s150x150/46380599_415092765694352_6400870480844161024_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com" alt="Oxana Krutous"></div>
 							<div class="header__logo-txt">etnoox</div>
 						</a>
 						<div class="header__title">Oxana Krutous</div>
@@ -56,284 +59,299 @@
 		</header>	
 		<div class="main">
 
-			<div class="stories" style="display: none;">
-				<div class="container">
+		<div class="stories">
+			<div class="container">
+				<div class="stories__slider-wrap">
 					<div class="stories__slider" id="js-stories-slider">
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="украшения">
-								<a href="./tags/./ukrasheniya.html">
-									<div class="stories__slide-pic"><img src="./img/og/ukrasheniya.png" alt="украшения" /></div>
-									<div class="stories__slide-txt">украшения</div>
-								</a>
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<div class="stories__slide" title="украшения">
+									<a href="./tags/./ukrasheniya.html">
+										<div class="stories__slide-pic" style="background-image: url(./img/og/ukrasheniya.png);"></div>
+										<div class="stories__slide-txt">украшения</div>
+									</a>
+								</div>
 							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="handmade jewelry">
-								<a href="./tags/./handmade-jewelry.html">
-									<div class="stories__slide-pic"><img src="./img/og/handmade-jewelry.png" alt="handmade jewelry" /></div>
-									<div class="stories__slide-txt">handmade jewelry</div>
-								</a>
+							<div class="swiper-slide">
+								<div class="stories__slide" title="handmade jewelry">
+									<a href="./tags/./handmade-jewelry.html">
+										<div class="stories__slide-pic" style="background-image: url(./img/og/handmade-jewelry.png);"></div>
+										<div class="stories__slide-txt">handmade jewelry</div>
+									</a>
+								</div>
 							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="fashion">
-								<a href="./tags/./fashion.html">
-									<div class="stories__slide-pic"><img src="./img/og/fashion.png" alt="fashion" /></div>
-									<div class="stories__slide-txt">fashion</div>
-								</a>
+							<div class="swiper-slide">
+								<div class="stories__slide" title="fashion">
+									<a href="./tags/./fashion.html">
+										<div class="stories__slide-pic" style="background-image: url(./img/og/fashion.png);"></div>
+										<div class="stories__slide-txt">fashion</div>
+									</a>
+								</div>
 							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="boho style">
-								<a href="./tags/./boho-style.html">
-									<div class="stories__slide-pic"><img src="./img/og/boho-style.png" alt="boho style" /></div>
-									<div class="stories__slide-txt">boho style</div>
-								</a>
+							<div class="swiper-slide">
+								<div class="stories__slide" title="boho style">
+									<a href="./tags/./boho-style.html">
+										<div class="stories__slide-pic" style="background-image: url(./img/og/boho-style.png);"></div>
+										<div class="stories__slide-txt">boho style</div>
+									</a>
+								</div>
 							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="fashion jewelry">
-								<a href="./tags/./fashion-jewelry.html">
-									<div class="stories__slide-pic"><img src="./img/og/fashion-jewelry.png" alt="fashion jewelry" /></div>
-									<div class="stories__slide-txt">fashion jewelry</div>
-								</a>
+							<div class="swiper-slide">
+								<div class="stories__slide" title="fashion jewelry">
+									<a href="./tags/./fashion-jewelry.html">
+										<div class="stories__slide-pic" style="background-image: url(./img/og/fashion-jewelry.png);"></div>
+										<div class="stories__slide-txt">fashion jewelry</div>
+									</a>
+								</div>
 							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="jewelry">
-								<a href="./tags/./jewelry.html">
-									<div class="stories__slide-pic"><img src="./img/og/jewelry.png" alt="jewelry" /></div>
-									<div class="stories__slide-txt">jewelry</div>
-								</a>
+							<div class="swiper-slide">
+								<div class="stories__slide" title="jewelry">
+									<a href="./tags/./jewelry.html">
+										<div class="stories__slide-pic" style="background-image: url(./img/og/jewelry.png);"></div>
+										<div class="stories__slide-txt">jewelry</div>
+									</a>
+								</div>
 							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="etno style">
-								<a href="./tags/./etno-style.html">
-									<div class="stories__slide-pic"><img src="./img/og/etno-style.png" alt="etno style" /></div>
-									<div class="stories__slide-txt">etno style</div>
-								</a>
+							<div class="swiper-slide">
+								<div class="stories__slide" title="etno style">
+									<a href="./tags/./etno-style.html">
+										<div class="stories__slide-pic" style="background-image: url(./img/og/etno-style.png);"></div>
+										<div class="stories__slide-txt">etno style</div>
+									</a>
+								</div>
 							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="ручная работа">
-								<a href="./tags/./ruchnaya-rabota.html">
-									<div class="stories__slide-pic"><img src="./img/og/ruchnaya-rabota.png" alt="ручная работа" /></div>
-									<div class="stories__slide-txt">ручная работа</div>
-								</a>
+							<div class="swiper-slide">
+								<div class="stories__slide" title="ручная работа">
+									<a href="./tags/./ruchnaya-rabota.html">
+										<div class="stories__slide-pic" style="background-image: url(./img/og/ruchnaya-rabota.png);"></div>
+										<div class="stories__slide-txt">ручная работа</div>
+									</a>
+								</div>
 							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="polimer clay necklace">
-								<a href="./tags/./polimer-clay-necklace.html">
-									<div class="stories__slide-pic"><img src="./img/og/polimer-clay-necklace.png" alt="polimer clay necklace" /></div>
-									<div class="stories__slide-txt">polimer clay necklace</div>
-								</a>
+							<div class="swiper-slide">
+								<div class="stories__slide" title="polimer clay necklace">
+									<a href="./tags/./polimer-clay-necklace.html">
+										<div class="stories__slide-pic" style="background-image: url(./img/og/polimer-clay-necklace.png);"></div>
+										<div class="stories__slide-txt">polimer clay necklace</div>
+									</a>
+								</div>
 							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="argilia polimer ica">
-								<a href="./tags/./argilia-polimer-ica.html">
-									<div class="stories__slide-pic"><img src="./img/og/argilia-polimer-ica.png" alt="argilia polimer ica" /></div>
-									<div class="stories__slide-txt">argilia polimer ica</div>
-								</a>
+							<div class="swiper-slide">
+								<div class="stories__slide" title="argilia polimer ica">
+									<a href="./tags/./argilia-polimer-ica.html">
+										<div class="stories__slide-pic" style="background-image: url(./img/og/argilia-polimer-ica.png);"></div>
+										<div class="stories__slide-txt">argilia polimer ica</div>
+									</a>
+								</div>
 							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="удобно">
-								<a href="./tags/./udobno.html">
-									<div class="stories__slide-pic"><img src="./img/og/udobno.png" alt="удобно" /></div>
-									<div class="stories__slide-txt">удобно</div>
-								</a>
+							<div class="swiper-slide">
+								<div class="stories__slide" title="удобно">
+									<a href="./tags/./udobno.html">
+										<div class="stories__slide-pic" style="background-image: url(./img/og/udobno.png);"></div>
+										<div class="stories__slide-txt">удобно</div>
+									</a>
+								</div>
 							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="красиво">
-								<a href="./tags/./krasivo.html">
-									<div class="stories__slide-pic"><img src="./img/og/krasivo.png" alt="красиво" /></div>
-									<div class="stories__slide-txt">красиво</div>
-								</a>
+							<div class="swiper-slide">
+								<div class="stories__slide" title="красиво">
+									<a href="./tags/./krasivo.html">
+										<div class="stories__slide-pic" style="background-image: url(./img/og/krasivo.png);"></div>
+										<div class="stories__slide-txt">красиво</div>
+									</a>
+								</div>
 							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="art style">
-								<a href="./tags/./art-style.html">
-									<div class="stories__slide-pic"><img src="./img/og/art-style.png" alt="art style" /></div>
-									<div class="stories__slide-txt">art style</div>
-								</a>
+							<div class="swiper-slide">
+								<div class="stories__slide" title="art style">
+									<a href="./tags/./art-style.html">
+										<div class="stories__slide-pic" style="background-image: url(./img/og/art-style.png);"></div>
+										<div class="stories__slide-txt">art style</div>
+									</a>
+								</div>
 							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="chic style">
-								<a href="./tags/./chic-style.html">
-									<div class="stories__slide-pic"><img src="./img/og/chic-style.png" alt="chic style" /></div>
-									<div class="stories__slide-txt">chic style</div>
-								</a>
+							<div class="swiper-slide">
+								<div class="stories__slide" title="chic style">
+									<a href="./tags/./chic-style.html">
+										<div class="stories__slide-pic" style="background-image: url(./img/og/chic-style.png);"></div>
+										<div class="stories__slide-txt">chic style</div>
+									</a>
+								</div>
 							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="beunique chic">
-								<a href="./tags/./beunique-chic.html">
-									<div class="stories__slide-pic"><img src="./img/og/beunique-chic.png" alt="beunique chic" /></div>
-									<div class="stories__slide-txt">beunique chic</div>
-								</a>
+							<div class="swiper-slide">
+								<div class="stories__slide" title="beunique chic">
+									<a href="./tags/./beunique-chic.html">
+										<div class="stories__slide-pic" style="background-image: url(./img/og/beunique-chic.png);"></div>
+										<div class="stories__slide-txt">beunique chic</div>
+									</a>
+								</div>
 							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="лепка изглины">
-								<a href="./tags/./lepka-izgliny.html">
-									<div class="stories__slide-pic"><img src="./img/og/lepka-izgliny.png" alt="лепка изглины" /></div>
-									<div class="stories__slide-txt">лепка изглины</div>
-								</a>
+							<div class="swiper-slide">
+								<div class="stories__slide" title="лепка изглины">
+									<a href="./tags/./lepka-izgliny.html">
+										<div class="stories__slide-pic" style="background-image: url(./img/og/lepka-izgliny.png);"></div>
+										<div class="stories__slide-txt">лепка изглины</div>
+									</a>
+								</div>
 							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="этно украшение">
-								<a href="./tags/./etno-ukrashenie.html">
-									<div class="stories__slide-pic"><img src="./img/og/etno-ukrashenie.png" alt="этно украшение" /></div>
-									<div class="stories__slide-txt">этно украшение</div>
-								</a>
+							<div class="swiper-slide">
+								<div class="stories__slide" title="этно украшение">
+									<a href="./tags/./etno-ukrashenie.html">
+										<div class="stories__slide-pic" style="background-image: url(./img/og/etno-ukrashenie.png);"></div>
+										<div class="stories__slide-txt">этно украшение</div>
+									</a>
+								</div>
 							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="necklase handmade">
-								<a href="./tags/./necklase-handmade.html">
-									<div class="stories__slide-pic"><img src="./img/og/necklase-handmade.png" alt="necklase handmade" /></div>
-									<div class="stories__slide-txt">necklase handmade</div>
-								</a>
+							<div class="swiper-slide">
+								<div class="stories__slide" title="necklase handmade">
+									<a href="./tags/./necklase-handmade.html">
+										<div class="stories__slide-pic" style="background-image: url(./img/og/necklase-handmade.png);"></div>
+										<div class="stories__slide-txt">necklase handmade</div>
+									</a>
+								</div>
 							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="стильное украшение">
-								<a href="./tags/./stil-noe-ukrashenie.html">
-									<div class="stories__slide-pic"><img src="./img/og/stil-noe-ukrashenie.png" alt="стильное украшение" /></div>
-									<div class="stories__slide-txt">стильное украшение</div>
-								</a>
+							<div class="swiper-slide">
+								<div class="stories__slide" title="стильное украшение">
+									<a href="./tags/./stil-noe-ukrashenie.html">
+										<div class="stories__slide-pic" style="background-image: url(./img/og/stil-noe-ukrashenie.png);"></div>
+										<div class="stories__slide-txt">стильное украшение</div>
+									</a>
+								</div>
 							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="полимерная глина украшения">
-								<a href="./tags/./polimernaya-glina-ukrasheniya.html">
-									<div class="stories__slide-pic"><img src="./img/og/polimernaya-glina-ukrasheniya.png" alt="полимерная глина украшения" /></div>
-									<div class="stories__slide-txt">полимерная глина украшения</div>
-								</a>
+							<div class="swiper-slide">
+								<div class="stories__slide" title="полимерная глина украшения">
+									<a href="./tags/./polimernaya-glina-ukrasheniya.html">
+										<div class="stories__slide-pic" style="background-image: url(./img/og/polimernaya-glina-ukrasheniya.png);"></div>
+										<div class="stories__slide-txt">полимерная глина украшения</div>
+									</a>
+								</div>
 							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="unica">
-								<a href="./tags/./unica.html">
-									<div class="stories__slide-pic"><img src="./img/og/unica.png" alt="unica" /></div>
-									<div class="stories__slide-txt">unica</div>
-								</a>
+							<div class="swiper-slide">
+								<div class="stories__slide" title="unica">
+									<a href="./tags/./unica.html">
+										<div class="stories__slide-pic" style="background-image: url(./img/og/unica.png);"></div>
+										<div class="stories__slide-txt">unica</div>
+									</a>
+								</div>
 							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="collana">
-								<a href="./tags/./collana.html">
-									<div class="stories__slide-pic"><img src="./img/og/collana.png" alt="collana" /></div>
-									<div class="stories__slide-txt">collana</div>
-								</a>
+							<div class="swiper-slide">
+								<div class="stories__slide" title="collana">
+									<a href="./tags/./collana.html">
+										<div class="stories__slide-pic" style="background-image: url(./img/og/collana.png);"></div>
+										<div class="stories__slide-txt">collana</div>
+									</a>
+								</div>
 							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="stiloso">
-								<a href="./tags/./stiloso.html">
-									<div class="stories__slide-pic"><img src="./img/og/stiloso.png" alt="stiloso" /></div>
-									<div class="stories__slide-txt">stiloso</div>
-								</a>
+							<div class="swiper-slide">
+								<div class="stories__slide" title="stiloso">
+									<a href="./tags/./stiloso.html">
+										<div class="stories__slide-pic" style="background-image: url(./img/og/stiloso.png);"></div>
+										<div class="stories__slide-txt">stiloso</div>
+									</a>
+								</div>
 							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="art isania">
-								<a href="./tags/./art-isania.html">
-									<div class="stories__slide-pic"><img src="./img/og/art-isania.png" alt="art isania" /></div>
-									<div class="stories__slide-txt">art isania</div>
-								</a>
+							<div class="swiper-slide">
+								<div class="stories__slide" title="art isania">
+									<a href="./tags/./art-isania.html">
+										<div class="stories__slide-pic" style="background-image: url(./img/og/art-isania.png);"></div>
+										<div class="stories__slide-txt">art isania</div>
+									</a>
+								</div>
 							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="colana legera">
-								<a href="./tags/./colana-legera.html">
-									<div class="stories__slide-pic"><img src="./img/og/colana-legera.png" alt="colana legera" /></div>
-									<div class="stories__slide-txt">colana legera</div>
-								</a>
+							<div class="swiper-slide">
+								<div class="stories__slide" title="colana legera">
+									<a href="./tags/./colana-legera.html">
+										<div class="stories__slide-pic" style="background-image: url(./img/og/colana-legera.png);"></div>
+										<div class="stories__slide-txt">colana legera</div>
+									</a>
+								</div>
 							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="модноеукрашивание">
-								<a href="./tags/./modnoeukrashivanie.html">
-									<div class="stories__slide-pic"><img src="./img/og/modnoeukrashivanie.png" alt="модноеукрашивание" /></div>
-									<div class="stories__slide-txt">модноеукрашивание</div>
-								</a>
+							<div class="swiper-slide">
+								<div class="stories__slide" title="модноеукрашивание">
+									<a href="./tags/./modnoeukrashivanie.html">
+										<div class="stories__slide-pic" style="background-image: url(./img/og/modnoeukrashivanie.png);"></div>
+										<div class="stories__slide-txt">модноеукрашивание</div>
+									</a>
+								</div>
 							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="лепка изполимернойглины">
-								<a href="./tags/./lepka-izpolimernoygliny.html">
-									<div class="stories__slide-pic"><img src="./img/og/lepka-izpolimernoygliny.png" alt="лепка изполимернойглины" /></div>
-									<div class="stories__slide-txt">лепка изполимернойглины</div>
-								</a>
+							<div class="swiper-slide">
+								<div class="stories__slide" title="лепка из полимернойглины">
+									<a href="./tags/./lepka-iz-polimernoygliny.html">
+										<div class="stories__slide-pic" style="background-image: url(./img/og/lepka-iz-polimernoygliny.png);"></div>
+										<div class="stories__slide-txt">лепка из полимернойглины</div>
+									</a>
+								</div>
 							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="clay">
-								<a href="./tags/./clay.html">
-									<div class="stories__slide-pic"><img src="./img/og/clay.png" alt="clay" /></div>
-									<div class="stories__slide-txt">clay</div>
-								</a>
+							<div class="swiper-slide">
+								<div class="stories__slide" title="clay">
+									<a href="./tags/./clay.html">
+										<div class="stories__slide-pic" style="background-image: url(./img/og/clay.png);"></div>
+										<div class="stories__slide-txt">clay</div>
+									</a>
+								</div>
 							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="soloparati">
-								<a href="./tags/./soloparati.html">
-									<div class="stories__slide-pic"><img src="./img/og/soloparati.png" alt="soloparati" /></div>
-									<div class="stories__slide-txt">soloparati</div>
-								</a>
+							<div class="swiper-slide">
+								<div class="stories__slide" title="soloparati">
+									<a href="./tags/./soloparati.html">
+										<div class="stories__slide-pic" style="background-image: url(./img/og/soloparati.png);"></div>
+										<div class="stories__slide-txt">soloparati</div>
+									</a>
+								</div>
 							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="polimer clay art">
-								<a href="./tags/./polimer-clay-art.html">
-									<div class="stories__slide-pic"><img src="./img/og/polimer-clay-art.png" alt="polimer clay art" /></div>
-									<div class="stories__slide-txt">polimer clay art</div>
-								</a>
+							<div class="swiper-slide">
+								<div class="stories__slide" title="polimer clay art">
+									<a href="./tags/./polimer-clay-art.html">
+										<div class="stories__slide-pic" style="background-image: url(./img/og/polimer-clay-art.png);"></div>
+										<div class="stories__slide-txt">polimer clay art</div>
+									</a>
+								</div>
 							</div>
 						</div>
 					</div>
+					<div class="stories__arrow stories__arrow--prev" id="js-stories-prev"></div>
+					<div class="stories__arrow stories__arrow--next" id="js-stories-next"></div>
 				</div>
 			</div>
+		</div>
 
 			<div class="links-page">
 				<div class="container">
-					<div class="links-page-list">
-						<div class="links-page-list__item">
-							<a href="https://www.etsy.com/shop/ETNOOX" class="links-page-list__item-link" target="_blank">
-								<strong>КУПИТЬ</strong>
-							</a>
-						</div>
-					</div>
-					<div class="links-page-bar">
-						<div class="banner__main-title">Свяжитесь с нами</div>
-						<div class="links-page-bar__banner">
-							<div class="banner__main-row">
-								<a href="https://www.instagram.com/etnoox" target="_blank" 
-								class="banner__main-item">
-									<div class="banner__main-item-ring"><i class="fa fa-instagram" aria-hidden="true"></i></div>
-									<div class="banner__main-item-txt">Instagram</div>
-								</a>
-							</div>
-						</div>
+
+					<div class="links-page-title">Oxana Krutous</div>
+
+					<div class="links-page-messagers">
+
+
+
+
+
+
+						<a href="https://www.instagram.com/etnoox" target="_blank" class="links-page-messager">
+							<i class="fa fa-instagram" aria-hidden="true"></i>Instagram
+						</a>
 					</div>
 
+					<div class="links-page-list">
+						<a href="https://www.etsy.com/shop/ETNOOX" class="links-page-btn" 
+						target="_blank"
+						>
+							<strong>КУПИТЬ</strong>
+						</a>
+
+
+					</div>
+
+					<div class="links-page-soc">
+						<a href="https://www.instagram.com/etnoox" target="_blank" 
+							class="links-page-soc__link" title="Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+					</div>
+					<div class="links-page-footer">@etnoox рекомендует SHORTWAYTOPAY</div>
 				</div>
 			</div>	
 		</div>			
 	</div>
+	<!--swiper-->
+	<script src="js/vendors/swiper.min.js"></script>
 	<!--jQuery-->
 	<script src="js/vendors/jquery.min.js"></script>
-	<script src="js/vendors/jquery.loadScroll.js"></script>
-	<!--device-->
-	<script src="js/vendors/slick.min.js"></script>
 	<!--init-->
 	<script src="js/jquery.init.js"></script>
 	<!--my scripts-->
